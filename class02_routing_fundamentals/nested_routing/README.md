@@ -1,4 +1,9 @@
 # Class-02 Part-I
+Link of recorded lectures
+https://www.youtube.com/watch?v=XPjzsteWGiY&list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW&index=4
+
+Complete Playlist of Nextjs
+https://www.youtube.com/playlist?list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW
 
 ## Nested Routes
 * Nested Routing is a route inside a route. For example, we want to create a services page and inside services, we want to create the categories of the service. In this case, we want security and consulty service to be added as route inside the services route. This is called nested routing.

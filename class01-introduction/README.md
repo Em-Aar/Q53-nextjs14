@@ -1,5 +1,11 @@
 # Class_01_20240309 - Introduction to the Nextjs 14
+Link of recorded lectures
+https://www.youtube.com/watch?v=g_16RrUK1bQ&list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW&index=2&t=1s
+https://www.youtube.com/watch?v=OhwQ3QccYXQ&list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW&index=5
 
+
+Complete Playlist of Nextjs
+https://www.youtube.com/playlist?list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW
 ## History of the web development
 
 - 1991: HTML - first language for structuring web pages.

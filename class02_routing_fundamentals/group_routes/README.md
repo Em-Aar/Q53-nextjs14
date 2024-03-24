@@ -1,5 +1,11 @@
 # Class 02 Part-II
 
+Link of recorded lectures
+https://www.youtube.com/watch?v=XPjzsteWGiY&list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW&index=4
+
+Complete Playlist of Nextjs
+https://www.youtube.com/playlist?list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW
+
 ## Route Groups
 
 Route groups in Next.js allow you to organize your routes and project files into logical groups without affecting the URL path structure. By wrapping a folder name in parentheses, like `(folderName)`, you can create a route group that is not included in the route's URL path. This feature is particularly useful for creating multiple nested layouts or partitioning an application into sections with different UIs or experiences.

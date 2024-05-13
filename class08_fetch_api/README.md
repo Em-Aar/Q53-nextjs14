@@ -17,7 +17,7 @@ Backend (behind the scenes): This is the part of a website or app that users don
 
 When user interacts with the frontend (like clicking a button or filling out a form, or clicks the products list), it sends a request to the backend. The backend then processes that request, fetches the necessary data, and sends a response back to the frontend. The frontend then displays that response to you, updating the page or showing a message.
 
-![Frontend & Backend][./images/1.jpg]
+![Frontend & Backend](./images/1.jpg)
 
 #### Important Considerations:
 
@@ -32,8 +32,7 @@ We write the logic of backend in **api** folder. We'll get into that later but b
 
 Either we have our own data or we're using data from a third party, the core data is always kept in a database. For example, we'll keep our blogs and users data in our database and if we are getting weather updates from thirdparty, the third party also have kept data in their databse.
 
-![Thirdparty or our Own Database][./images/2.jpg]
-
+![Thirdparty or our Own Database](./images/2.jpg)
 
 ## How Do we Connect
 
@@ -94,7 +93,7 @@ export default async function Home() {
 
 **Important point to note here that we can send GET Request from our server or client component in nextjs to get data from thirdparty server using APIs**
 
-![GET request from client component][./images/3.jpg]
+![GET request from client component](./images/3.jpg)
 
 1- Sending POST Request to order (a book) from Simple Books APIs
 
@@ -103,12 +102,12 @@ export default async function Home() {
 - Let's send the POST request from client component.
   Here we'll get **CORS** error. (Cross Origin Resource Sharing). The simple books API server has restrictions. It can not accept POST requests from Cross Origins (Client, Browser).
 
-![sending POST request from client component][./images/4.jpg]
+![sending POST request from client component](./images/4.jpg)
 
 **What we do know**
 
 Here we'll use Route Handlers in our Nextjs App. Our client component will send POST request to our backend (to our server using Route Handlers) and the our server will send the same POST request to the Simple Books API Server. We'll get the response....
 
-![Using Route Handler][./images/5.jpg]
+![Using Route Handler](./images/5.jpg)
 
 **Please look at the code now for further understanding**

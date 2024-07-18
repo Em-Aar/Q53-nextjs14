@@ -1,76 +1,82 @@
-# Class_01_20240309 - Introduction to the Nextjs 14
-Link of recorded lectures
-https://www.youtube.com/watch?v=g_16RrUK1bQ&list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW&index=2&t=1s
-https://www.youtube.com/watch?v=OhwQ3QccYXQ&list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW&index=5
+# Class 01 - Introduction to Next.js 14
 
+## Recorded Lectures
 
-Complete Playlist of Nextjs
-https://www.youtube.com/playlist?list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW
-## History of the web development
+- [Lecture 1](https://www.youtube.com/watch?v=g_16RrUK1bQ&list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW&index=2&t=1s)
+- [Lecture 2](https://www.youtube.com/watch?v=OhwQ3QccYXQ&list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW&index=5)
 
-- 1991: HTML - first language for structuring web pages.
-  World's first website = [info.cern.ch](https://info.cern.ch/hypertext/WWW/TheProject.html)
-- 1995: CSS (Cascading Style Sheet) - Presentation
-  separating presentation from content
-- 1996: JavaScript - Adding Interactivity to web pages
-- 2000: AJAX: Asynchronous javaScript and XML
-  Flash: for animations and interactive elements - performance issues
-- Mid 2000s: Web 2.0 User-generated content
-- 2000-2010s: Frameworks: Django, Ruby on Rails, Node.js
-- 2010s-Present:
-  - Mobile-First
-  - Single Page Applications : Loading content dynamically on a single page
-  - Modern javascript Frameworks:
+[Complete Playlist of Next.js](https://www.youtube.com/playlist?list=PLxYHe2aLO4DAuNMpPAse2RIXe7VbGedVW)
+
+## History of Web Development
+
+- **1991:** HTML - The first language for structuring web pages.  
+  World's first website: [info.cern.ch](https://info.cern.ch/hypertext/WWW/TheProject.html)
+- **1995:** CSS (Cascading Style Sheets) - Separating presentation from content.
+- **1996:** JavaScript - Adding interactivity to web pages.
+- **2000:**
+  - **AJAX:** Asynchronous JavaScript and XML.
+  - **Flash:** For animations and interactive elements - performance issues.
+- **Mid 2000s:** Web 2.0 - User-generated content.
+- **2000-2010s:** Frameworks: Django, Ruby on Rails, Node.js.
+- **2010s-Present:**
+  - **Mobile-First** approach.
+  - **Single Page Applications (SPAs):** Loading content dynamically on a single page.
+  - **Modern JavaScript Frameworks:**
     - React
     - Angular
     - Vue
 
-## Earlier Tools for web development
+## Earlier Tools for Web Development
 
-- HTML (Hypertext Markup Language): Used to create a structure of website
-- CSS (Cascading Style Sheets): Used for styling the webpages.
-- JavaScript: For adding logic and user interaction
-  HTML is the basic of the webpage. Without HTML, we cannot create a webpage.
+- **HTML (Hypertext Markup Language):** Used to create the structure of a website.
+- **CSS (Cascading Style Sheets):** Used for styling the webpages.
+- **JavaScript:** For adding logic and user interaction.
 
-## How Websites were created with purely HTML, CSS and JavaScript
+HTML is the basic foundation of a webpage. Without HTML, we cannot create a webpage.
 
-    - Usually a single html file (index.html) for Website Structure
-    - .css file for styling
-    - .js file for interactivity and logic
+## Creating Websites with Purely HTML, CSS, and JavaScript
 
-## What is React
+- Usually a single HTML file (`index.html`) for website structure.
+- A `.css` file for styling.
+- A `.js` file for interactivity and logic.
 
-- React is a javascript library designed by the facebook. We'll discuss in later classes how it revolutionized the webdevelopment. https://react.dev/
+## What is React?
 
-## What is Nextjs
+- React is a JavaScript library designed by Facebook. It allows developers to build reusable UI components. Learn more at [react.dev](https://react.dev/).
 
-- Nextjs is a React framework. https://nextjs.org/
-- Do study the difference betwenn library (react) and framerok (nextjs). However, with time, you'll come to know.
+## What is Next.js?
 
-## Create a Nextjs Project
-https://nextjs.org/docs/getting-started/installation
+- Next.js is a React framework that provides features such as server-side rendering and static site generation. Learn more at [nextjs.org](https://nextjs.org/).
+- Study the difference between a library (React) and a framework (Next.js). Over time, you'll understand these differences.
 
-### System Requriements
-* Node.js 18.17 or later. https://nodejs.org/en/download/ 
-* Check your OS version and install appropriate Nodejs. For example, Choose 64-bit nodejs version for 64-bit windows.
-### Steps to create your first project
-* Create a your project directory (folder). Naming the folder is important. Remember following
-    * All letters in the folder name should be lowercase
-    * Don't use same in folder name. User '-' or '_' for spaces.  my-first-app
-    * Avoid using keywords like next, react etc. 
-* open vs code in your project folder. 
-    * In your project folder, right click and choose option 'open with vscode' or 'open in terminal'
-    * If opened in terminal, write command
-    ~~~
-    code .
-    ~~~
-    This will open your vscode in current folder.
-* open terminal in vscode and write these commands to create your nextjs project
-~~~
-npx create-next-app@latest .
-~~~
+## Creating a Next.js Project
 
-* Run development server
+[Next.js Documentation - Getting Started](https://nextjs.org/docs/getting-started/installation)
+
+### System Requirements
+
+- **Node.js 18.17 or later:** [Download Node.js](https://nodejs.org/en/download/)
+- Check your OS version and install the appropriate Node.js version. For example, choose the 64-bit Node.js version for a 64-bit Windows OS.
+
+### Steps to Create Your First Project
+
+1. **Create Your Project Directory (Folder):**
+    - All letters in the folder name should be lowercase.
+    - Don't use spaces in folder names; use '-' or '_'. Example: `my-first-app`.
+    - Avoid using keywords like next, react, etc.
+2. **Open VS Code in Your Project Folder:**
+    - In your project folder, right-click and choose the option 'open with VS Code' or 'open in terminal'.
+    - If opened in terminal, run the command:
+      ```bash
+      code .
+      ```
+      This will open VS Code in the current folder.
+3. **Open Terminal in VS Code and Create Your Next.js Project:**
+    ```bash
+    npx create-next-app@latest .
+    ```
+
+### Running the Development Server
 
 First, run the development server:
 
@@ -82,25 +88,3 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
